@@ -106,7 +106,9 @@ function nlp(req, res) {
     var tengoUna = tokenizer.tokenize(name);
 
     classifier.addDocument('tengo', 'intencion');
+    classifier.addDocument('un', 'intencion');
     classifier.addDocument('una', 'intencion');
+    classifier.addDocument('uno', 'intencion');
     classifier.addDocument('quiero tirar', 'intencion');
     //classifier.addDocument('botella', 'residuo');
 
@@ -115,7 +117,8 @@ function nlp(req, res) {
     var words = JSON.parse(data);
 
     words.residuos.forEach(element => {
-        classifier.addDocument(element.nombre_residuo, element.tipo_residuo);
+        
+        classifier.addDocument(element.nombre_residuo.normalize('NFD').replace(/[\u0300-\u036f]/g, ""), element.tipo_residuo.normalize('NFD').replace(/[\u0300-\u036f]/g, ""));
         //console.log(element.nombre_residuo);
     });
     
@@ -126,17 +129,21 @@ function nlp(req, res) {
      });
      ;*/
 
-    classifier.train()
+    classifier.train();
     //Si quiero guardar lo que se "entrenó"
-    classifier.save('./resources/dataToClassify.json', function(err, classifier) {});
-
+    //classifier.save('./resources/dataToClassify.json', function(err, classifier) {});
+    var residuos ="";
     tengoUna.forEach(element => {
         console.log('\x1b[35m%s\x1b[0m', element);
         console.log(classifier.getClassifications(element));
-        console.log('\x1b[36m%s\x1b[0m', classifier.classify(element), "\x1b[0m");
+        console.log('\x1b[36m%s\x1b[0m', classifier.classify(element), "\x1b[0m");      
+        var categoria = classifier.classify(element);  
+        if(categoria === "residuo"){
+            residuos += element +"-";
+        }
     });
 
-    res.status(200).send("opaa");
+    res.status(200).send(residuos);
 };
 
 module.exports = {

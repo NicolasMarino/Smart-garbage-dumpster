@@ -23,6 +23,7 @@ async function  get_mic_data() {
     var query = texto.innerText;
     var reqNLP = new XMLHttpRequest();
     reqNLP.open("GET", `http://localhost:3000/api/nlp/${JSON.stringify(query)}`, false);
+    
     /*reqNLP.onreadystatechange = function (aEvt) {
         if (reqNLP.readyState == 4) {
            if(reqNLP.status == 200)

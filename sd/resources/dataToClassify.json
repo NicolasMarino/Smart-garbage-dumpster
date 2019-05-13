@@ -1,1 +1,270 @@
-{"classifier":{"classFeatures":{"intencion":{"0":2,"1":2,"2":2,"3":2},"residuo":{"4":7,"5":2,"6":2,"7":2,"8":2,"9":3,"10":3,"11":3,"12":7,"13":16,"14":2,"15":2,"16":2,"17":3,"18":3,"19":4,"20":3,"21":8,"22":3,"23":3,"24":3,"25":2,"26":2,"27":3,"28":2,"29":2,"30":3,"31":3,"32":3,"33":2,"34":3,"35":4,"36":2,"37":3,"38":3,"39":5,"40":2,"41":2}},"classTotals":{"intencion":4,"residuo":51},"totalExamples":54,"smoothing":1},"docs":[{"label":"intencion","text":["tengo"]},{"label":"intencion","text":["una"]},{"label":"intencion","text":["quiero","tirar"]},{"label":"residuo","text":["papel"]},{"label":"residuo","text":["cartulina"]},{"label":"residuo","text":["cart"]},{"label":"residuo","text":["diario"]},{"label":"residuo","text":["revista"]},{"label":"residuo","text":["folleto"]},{"label":"residuo","text":["folleto"]},{"label":"residuo","text":["cuaderno"]},{"label":"residuo","text":["cuaderno"]},{"label":"residuo","text":["libro"]},{"label":"residuo","text":["libro"]},{"label":"residuo","text":["botella","de","refresco"]},{"label":"residuo","text":["botella","de","jugo"]},{"label":"residuo","text":["botella","de","agua"]},{"label":"residuo","text":["servilleta"]},{"label":"residuo","text":["hoja"]},{"label":"residuo","text":["servilleta"]},{"label":"residuo","text":["pa","uelo"]},{"label":"residuo","text":["envoltorio"]},{"label":"residuo","text":["envoltorio"]},{"label":"residuo","text":["botella","de","pl","stico"]},{"label":"residuo","text":["lata"]},{"label":"residuo","text":["cer","mica"]},{"label":"residuo","text":["vidrio"]},{"label":"residuo","text":["yerba"]},{"label":"residuo","text":["hoja"]},{"label":"residuo","text":["comida"]},{"label":"residuo","text":["pa","uelo"]},{"label":"residuo","text":["lata"]},{"label":"residuo","text":["gu","telef","nica"]},{"label":"residuo","text":["hierba"]},{"label":"residuo","text":["gu","telef","nica"]},{"label":"residuo","text":["cuadernola"]},{"label":"residuo","text":["botella","de","vidrio"]},{"label":"residuo","text":["chicl"]},{"label":"residuo","text":["pa","al"]},{"label":"residuo","text":["boleto"]},{"label":"residuo","text":["boleto"]},{"label":"residuo","text":["envoltorio","de","alfajor"]},{"label":"residuo","text":["envoltorio","de","chicl"]},{"label":"residuo","text":["envoltorio","de","pastilla"]},{"label":"residuo","text":["envoltorio","de","pastilla"]},{"label":"residuo","text":["envoltorio","de","barra","de","cereal"]},{"label":"residuo","text":["papel","de","chicl"]},{"label":"residuo","text":["papel","de","pastilla"]},{"label":"residuo","text":["papel","de","alfajor"]},{"label":"residuo","text":["papel","de","pastilla"]},{"label":"residuo","text":["cuadernola"]},{"label":"residuo","text":["papel"]},{"label":"residuo","text":["botella","de","pl","stico"]}],"features":{"tengo":1,"una":1,"quiero":1,"tirar":1,"papel":6,"cartulina":1,"cart":1,"diario":1,"revista":1,"folleto":2,"cuaderno":2,"libro":2,"botella":6,"de":16,"refresco":1,"jugo":1,"agua":1,"servilleta":2,"hoja":2,"pa":3,"uelo":2,"envoltorio":7,"pl":2,"stico":2,"lata":2,"cer":1,"mica":1,"vidrio":2,"yerba":1,"comida":1,"gu":2,"telef":2,"nica":2,"hierba":1,"cuadernola":2,"chicl":3,"al":1,"boleto":2,"alfajor":2,"pastilla":4,"barra":1,"cereal":1},"stemmer":{},"lastAdded":53,"events":{"_events":{},"_eventsCount":0}}
+{
+    "classifier": {
+        "classFeatures": {
+            "intencion": {
+                "0": 2,
+                "1": 2,
+                "2": 2,
+                "3": 2,
+                "4": 2,
+                "5": 2
+            },
+            "residuo": {
+                "6": 7,
+                "7": 2,
+                "8": 2,
+                "9": 2,
+                "10": 2,
+                "11": 3,
+                "12": 3,
+                "13": 3,
+                "14": 7,
+                "15": 16,
+                "16": 2,
+                "17": 2,
+                "18": 2,
+                "19": 3,
+                "20": 3,
+                "21": 3,
+                "22": 8,
+                "23": 3,
+                "24": 3,
+                "25": 2,
+                "26": 3,
+                "27": 2,
+                "28": 2,
+                "29": 3,
+                "30": 3,
+                "31": 2,
+                "32": 3,
+                "33": 4,
+                "34": 2,
+                "35": 3,
+                "36": 3,
+                "37": 5,
+                "38": 2,
+                "39": 2
+            }
+        },
+        "classTotals": {
+            "intencion": 6,
+            "residuo": 51
+        },
+        "totalExamples": 56,
+        "smoothing": 1
+    },
+    "docs": [{
+        "label": "intencion",
+        "text": ["tengo"]
+    }, {
+        "label": "intencion",
+        "text": ["un"]
+    }, {
+        "label": "intencion",
+        "text": ["una"]
+    }, {
+        "label": "intencion",
+        "text": ["uno"]
+    }, {
+        "label": "intencion",
+        "text": ["quiero", "tirar"]
+    }, {
+        "label": "residuo",
+        "text": ["papel"]
+    }, {
+        "label": "residuo",
+        "text": ["cartulina"]
+    }, {
+        "label": "residuo",
+        "text": ["carton"]
+    }, {
+        "label": "residuo",
+        "text": ["diario"]
+    }, {
+        "label": "residuo",
+        "text": ["revista"]
+    }, {
+        "label": "residuo",
+        "text": ["folleto"]
+    }, {
+        "label": "residuo",
+        "text": ["folleto"]
+    }, {
+        "label": "residuo",
+        "text": ["cuaderno"]
+    }, {
+        "label": "residuo",
+        "text": ["cuaderno"]
+    }, {
+        "label": "residuo",
+        "text": ["libro"]
+    }, {
+        "label": "residuo",
+        "text": ["libro"]
+    }, {
+        "label": "residuo",
+        "text": ["botella", "de", "refresco"]
+    }, {
+        "label": "residuo",
+        "text": ["botella", "de", "jugo"]
+    }, {
+        "label": "residuo",
+        "text": ["botella", "de", "agua"]
+    }, {
+        "label": "residuo",
+        "text": ["servilleta"]
+    }, {
+        "label": "residuo",
+        "text": ["hoja"]
+    }, {
+        "label": "residuo",
+        "text": ["servilleta"]
+    }, {
+        "label": "residuo",
+        "text": ["panuelo"]
+    }, {
+        "label": "residuo",
+        "text": ["envoltorio"]
+    }, {
+        "label": "residuo",
+        "text": ["envoltorio"]
+    }, {
+        "label": "residuo",
+        "text": ["botella", "de", "plastico"]
+    }, {
+        "label": "residuo",
+        "text": ["lata"]
+    }, {
+        "label": "residuo",
+        "text": ["ceramica"]
+    }, {
+        "label": "residuo",
+        "text": ["vidrio"]
+    }, {
+        "label": "residuo",
+        "text": ["yerba"]
+    }, {
+        "label": "residuo",
+        "text": ["hoja"]
+    }, {
+        "label": "residuo",
+        "text": ["comida"]
+    }, {
+        "label": "residuo",
+        "text": ["panuelo"]
+    }, {
+        "label": "residuo",
+        "text": ["lata"]
+    }, {
+        "label": "residuo",
+        "text": ["guia", "telefonica"]
+    }, {
+        "label": "residuo",
+        "text": ["hierba"]
+    }, {
+        "label": "residuo",
+        "text": ["guia", "telefonica"]
+    }, {
+        "label": "residuo",
+        "text": ["cuadernola"]
+    }, {
+        "label": "residuo",
+        "text": ["botella", "de", "vidrio"]
+    }, {
+        "label": "residuo",
+        "text": ["chicl"]
+    }, {
+        "label": "residuo",
+        "text": ["panal"]
+    }, {
+        "label": "residuo",
+        "text": ["boleto"]
+    }, {
+        "label": "residuo",
+        "text": ["boleto"]
+    }, {
+        "label": "residuo",
+        "text": ["envoltorio", "de", "alfajor"]
+    }, {
+        "label": "residuo",
+        "text": ["envoltorio", "de", "chicl"]
+    }, {
+        "label": "residuo",
+        "text": ["envoltorio", "de", "pastilla"]
+    }, {
+        "label": "residuo",
+        "text": ["envoltorio", "de", "pastilla"]
+    }, {
+        "label": "residuo",
+        "text": ["envoltorio", "de", "barra", "de", "cereal"]
+    }, {
+        "label": "residuo",
+        "text": ["papel", "de", "chicl"]
+    }, {
+        "label": "residuo",
+        "text": ["papel", "de", "pastilla"]
+    }, {
+        "label": "residuo",
+        "text": ["papel", "de", "alfajor"]
+    }, {
+        "label": "residuo",
+        "text": ["papel", "de", "pastilla"]
+    }, {
+        "label": "residuo",
+        "text": ["cuadernola"]
+    }, {
+        "label": "residuo",
+        "text": ["papel"]
+    }, {
+        "label": "residuo",
+        "text": ["botella", "de", "plastico"]
+    }],
+    "features": {
+        "tengo": 1,
+        "un": 1,
+        "una": 1,
+        "uno": 1,
+        "quiero": 1,
+        "tirar": 1,
+        "papel": 6,
+        "cartulina": 1,
+        "carton": 1,
+        "diario": 1,
+        "revista": 1,
+        "folleto": 2,
+        "cuaderno": 2,
+        "libro": 2,
+        "botella": 6,
+        "de": 16,
+        "refresco": 1,
+        "jugo": 1,
+        "agua": 1,
+        "servilleta": 2,
+        "hoja": 2,
+        "panuelo": 2,
+        "envoltorio": 7,
+        "plastico": 2,
+        "lata": 2,
+        "ceramica": 1,
+        "vidrio": 2,
+        "yerba": 1,
+        "comida": 1,
+        "guia": 2,
+        "telefonica": 2,
+        "hierba": 1,
+        "cuadernola": 2,
+        "chicl": 3,
+        "panal": 1,
+        "boleto": 2,
+        "alfajor": 2,
+        "pastilla": 4,
+        "barra": 1,
+        "cereal": 1
+    },
+    "stemmer": {},
+    "lastAdded": 55,
+    "events": {
+        "_events": {},
+        "_eventsCount": 0
+    }
+}
