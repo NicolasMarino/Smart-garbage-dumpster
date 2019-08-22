@@ -8,7 +8,6 @@ var residuos =  [
         nombre_residuo: 'folletos',
         tipo_residuo: 'azul'
     })
-    
 ];
 //seeder doesnt run in the app ,
 
